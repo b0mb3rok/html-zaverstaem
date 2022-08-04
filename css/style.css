@@ -13,3 +13,195 @@
     font-style: normal;
     font-display: swap;
 }
+
+body {
+    min-width: 1400px;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    background-color: #EFE6E4;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+/** Заголовки h2+кнопки "Оставить заявку" **/
+
+.heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #533738;
+  }
+
+  .button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #533738;
+    padding: 25px 68px;
+    background-color: #CC8B86;
+  }
+
+.button-gallery {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36,5px;
+    color: #533738;
+}
+
+
+.page-body {
+
+}
+
+/** Навигация **/
+
+.site-navigation a:hover,
+.site-navigation a:focus,   
+.site-navigation-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+
+
+
+
+/** Вверхний блок **/
+
+.main-header {
+    background-image: url(../img/header-bg.png);
+    width: 1400px;
+    height: 715px;
+}
+
+.headline {
+    width: 534px;
+    text-align: left;
+}
+
+.headline span {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #533738;
+}
+
+.headline p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    padding-bottom: 32px;
+}
+
+
+/** Блок О Нас **/
+.about h2 {
+    text-align: center;
+}
+
+/** Блок Преимущества **/
+
+.advantage {
+    background-color: #8D7370;
+    color: #ffffff;
+}
+.advantage-list {
+
+}
+.advantage-item {}
+
+.advantage-list span {
+font-size: 50px;
+font-weight: 400;
+line-height: 62px;
+text-align: left;
+}
+
+.advantage-list p {
+font-size: 30px;
+font-weight: 500;
+line-height: 37px;
+text-align: left;
+text-transform: uppercase;
+}
+
+
+/** Блок портфолио **/
+
+.portfolio {
+}
+
+
+/** Блок Команда **/
+.team {
+    background-color: #E2C4BA;
+}
+
+
+/** Блок Как мы работаем **/
+.work {
+    background-color: #E2C4BA;
+}
+
+/** Блок отзывы **/
+
+/** Блок Оставить заявку **/
+
+.request {
+    background-color: #8D7370;
+    color: #ffffff;
+}
+.request-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.request-text {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+/** Футер **/
+    .page-footer-item,
+    .page-footer-link {
+   
+        font-size: 18px;
+        line-height: 30px;
+        color: #533738;
+
+}
